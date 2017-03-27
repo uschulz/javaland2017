@@ -3,7 +3,7 @@
   <endpoint-description>
     <property name="objectClass">
       <array>
-        <value>de.ndesign.javaland.cxf.rest.api.ShoppingListResourceXXX</value>
+        <value>de.ndesign.javaland.cxf.rest.api.ShoppingListResource</value>
       </array>
     </property>
     <property name="endpoint.id">http://localhost:8181/cxf/shoppinglists</property>
