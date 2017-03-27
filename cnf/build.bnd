@@ -36,6 +36,9 @@
 -releaserepo: Release
 -baselinerepo: Release
 
-# JUnit
+# Junit
 junit: org.apache.servicemix.bundles.junit; version=4.12
--plugin: aQute.bnd.deployer.repository.LocalIndexedRepo;name=cxf;local=/Users/uwe/work/javaland/repositories/apache-cxf-dosgi-2.1.0
+-plugin: \
+  aQute.bnd.deployer.repository.LocalIndexedRepo; \
+       name=cxf; \
+       local=${build}/repositories/apache-cxf-dosgi-2.1.0
