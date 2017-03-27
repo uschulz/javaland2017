@@ -1,0 +1,18 @@
+-buildpath: \
+	osgi.annotation;version=6.0.1,\
+	osgi.core;version=6.0,\
+	osgi.cmpn;version=6.0,\
+	rest-api;version=latest
+
+-testpath: \
+	${junit}
+
+javac.source: 1.8
+javac.target: 1.8
+
+Bundle-Version: 0.0.0.${tstamp}
+
+-runfw: org.apache.felix.framework;version='[5.4.0,5.4.0]'
+-runee: JavaSE-1.8
+
+Export-Package: de.ndesign.javaland.cxf.rest.service
